@@ -14,8 +14,8 @@ public class Cat {
         this.age = age;
     }
 
-    public void tellYourAddress(){
-        System.out.println("Blick von innen " + this);
+    public Cat getAdress(){
+        return this;
     }
 
 
@@ -25,7 +25,7 @@ public class Cat {
     }
 
     public void setName(String name) {
-        this.name = name;
+            this.name = name;
     }
 
     public String getFurColor() {
